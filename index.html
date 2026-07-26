@@ -1,100 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
 
-<title>Dawn Rifter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <meta name="description" content="Dawn Rifter official website and social links.">
 
-<style>
+    <title>Dawn Rifter</title>
 
-body{
-    margin:0;
-    background:#000;
-    color:#fff;
-    font-family:'Anton',sans-serif;
-    text-align:center;
-}
+    <style>
+        @font-face {
+            font-family: "Horizon";
+            src: url("Horizon.otf") format("opentype");
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+        }
 
-.container{
-    max-width:700px;
-    margin:auto;
-    padding:60px 20px;
-}
+        * {
+            box-sizing: border-box;
+        }
 
-.logo{
-    width:100%;
-    max-width:700px;
-    margin-bottom:35px;
-}
+        body {
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
 
-.sub-header{
-    font-size:20px;
-    letter-spacing:2px;
-    color:#ffffff;
-    margin-bottom:30px;
-}
+            background-color: #000000;
+            color: #ffffff;
 
-.social-links a{
-    display:block;
-    text-decoration:none;
-    color:white;
-    font-size:28px;
-    letter-spacing:1px;
-    margin:18px 0;
-    transition:.2s;
-}
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
 
-.social-links a:hover{
-    color:#ff7a1a;
-    text-shadow:0 0 12px #ff7a1a;
-}
+        .container {
+            width: 100%;
+            max-width: 700px;
 
-</style>
+            margin: 0 auto;
+            padding: 45px 20px;
+        }
 
+        .header {
+            margin: 0 0 12px;
+
+            font-family: "Horizon", Impact, sans-serif;
+            font-size: clamp(48px, 11vw, 88px);
+            font-weight: normal;
+            line-height: 0.95;
+            letter-spacing: -2px;
+            text-transform: uppercase;
+
+            color: #ffffff;
+
+            -webkit-text-stroke: 5px #ff711c;
+            paint-order: stroke fill;
+
+            text-shadow:
+                0 0 8px rgba(255, 113, 28, 0.75),
+                0 0 22px rgba(255, 113, 28, 0.4);
+        }
+
+        .sub-header {
+            margin: 0 0 12px;
+
+            color: #ffffff;
+
+            font-size: 15px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            text-transform: lowercase;
+        }
+
+        .social-links {
+            margin: 0;
+            padding: 0;
+        }
+
+        .social-links a {
+            display: block;
+
+            margin: 0;
+            padding: 2px 0;
+
+            color: #ffffff;
+
+            font-size: 18px;
+            font-weight: bold;
+            line-height: 1.15;
+
+            text-decoration: none;
+            text-transform: lowercase;
+
+            transition:
+                color 0.2s ease,
+                text-shadow 0.2s ease;
+        }
+
+        .social-links a:hover,
+        .social-links a:focus-visible {
+            color: #ff711c;
+
+            text-shadow:
+                0 0 6px rgba(255, 113, 28, 0.9),
+                0 0 12px rgba(255, 113, 28, 0.6);
+        }
+
+        .social-links a:focus-visible {
+            outline: 2px solid #ff711c;
+            outline-offset: 3px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 35px 5px;
+            }
+
+            .header {
+                font-size: clamp(42px, 15vw, 68px);
+                letter-spacing: -1px;
+
+                -webkit-text-stroke: 3px #ff711c;
+            }
+
+            .social-links a {
+                font-size: 17px;
+            }
+        }
+    </style>
 </head>
 
 <body>
+    <main class="container">
 
-<div class="container">
+        <h1 class="header">DAWN RIFTER</h1>
 
-<img src="logo.png" alt="Dawn Rifter" class="logo">
+        <p class="sub-header">click to follow:</p>
 
-<p class="sub-header">CLICK TO FOLLOW</p>
+        <nav class="social-links" aria-label="Dawn Rifter social links">
 
-<div class="social-links">
+            <a href="https://www.tiktok.com/@dawnrifter"
+               target="_blank"
+               rel="noopener noreferrer">
+                tiktok
+            </a>
 
-<a href="https://www.tiktok.com/@dawnrifter" target="_blank">TikTok</a>
+            <a href="https://www.instagram.com/dawnrifter"
+               target="_blank"
+               rel="noopener noreferrer">
+                instagram
+            </a>
 
-<a href="https://www.instagram.com/dawnrifter" target="_blank">Instagram</a>
+            <a href="https://www.youtube.com/@dawnrifter?sub_confirmation=1"
+               target="_blank"
+               rel="noopener noreferrer">
+                youtube
+            </a>
 
-<a href="https://www.youtube.com/@dawnrifter?sub_confirmation=1" target="_blank">YouTube</a>
+            <a href="https://www.snapchat.com/add/dawnrifter"
+               target="_blank"
+               rel="noopener noreferrer">
+                snapchat
+            </a>
 
-<a href="https://www.snapchat.com/add/dawnrifter" target="_blank">Snapchat</a>
+            <a href="https://x.com/dawnrifter"
+               target="_blank"
+               rel="noopener noreferrer">
+                x
+            </a>
 
-<a href="https://x.com/dawnrifter" target="_blank">X</a>
+            <a href="https://www.threads.net/@dawnrifter"
+               target="_blank"
+               rel="noopener noreferrer">
+                threads
+            </a>
 
-<a href="https://www.threads.net/@dawnrifter" target="_blank">Threads</a>
+            <a href="https://bsky.app/profile/dawnrifter.bsky.social"
+               target="_blank"
+               rel="noopener noreferrer">
+                bluesky
+            </a>
 
-<a href="https://bsky.app/profile/dawnrifter.bsky.social" target="_blank">Bluesky</a>
+            <a href="https://www.pinterest.com/dawnrifter"
+               target="_blank"
+               rel="noopener noreferrer">
+                pinterest
+            </a>
 
-<a href="https://www.pinterest.com/dawnrifter" target="_blank">Pinterest</a>
+            <a href="https://www.reddit.com/r/DawnRifter"
+               target="_blank"
+               rel="noopener noreferrer">
+                reddit
+            </a>
 
-<a href="https://www.reddit.com/r/DawnRifter" target="_blank">Reddit</a>
+            <a href="https://discord.gg/BXPxn6encv"
+               target="_blank"
+               rel="noopener noreferrer">
+                discord
+            </a>
 
-<a href="https://discord.gg/BXPxn6encv" target="_blank">Discord</a>
+            <a href="https://kick.com/dawnrifter"
+               target="_blank"
+               rel="noopener noreferrer">
+                kick
+            </a>
 
-<a href="https://kick.com/dawnrifter" target="_blank">Kick</a>
+            <a href="https://www.twitch.tv/dawnrifter"
+               target="_blank"
+               rel="noopener noreferrer">
+                twitch
+            </a>
 
-<a href="https://www.twitch.tv/dawnrifter" target="_blank">Twitch</a>
+        </nav>
 
-</div>
-
-</div>
-
+    </main>
 </body>
 </html>
